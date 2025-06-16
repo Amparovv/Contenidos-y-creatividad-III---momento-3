@@ -1,2 +1,17 @@
-# Auto detect text files and perform LF normalization
+# Forzar el rastreo de archivos específicos
+index.html text
+script.js text
+styles.css text
+README.md text
+
+# Asegurar que las imágenes sean rastreadas
+assets/images/*.png binary
+assets/images/vela.png binary
+assets/images/shoes.png binary
+assets/images/perfume.png binary
+assets/images/mueble.png binary
+assets/images/almohadones.png binary
+assets/images/collar.png binary
+
+# Configuración general
 * text=auto
